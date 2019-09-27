@@ -35,6 +35,16 @@ This should open a list of specs, select spec filename like [spec.js](cypress/in
 
 ![Cypress test](images/test.png)
 
+## Shut down container
+
+You can shutdown the container by name. To find it use
+
+```shell
+docker ps --filter=name=my-site
+# take the ID then stop the container
+docker stop <id>
+```
+
 ## See also
 
 - [Cypress and Docker documentation](https://on.cypress.io/docker)
