@@ -4,7 +4,10 @@
   "description": "Example running Cypress against Apache server running in a Docker container",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build -t website . ",
+    "start": "docker run -dit --name my-site -p 8080:80 website",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",

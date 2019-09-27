@@ -1,0 +1,7 @@
+# we only want index.html in the Docker image
+cypress
+node_modules
+cypress.json
+package-lock.json
+package.json
+README.md
