@@ -21,7 +21,7 @@ See [package.json](package.json) for the example Docker command that runs. Shoul
 
 ## Run image
 
-Once the image is built, start it with `npm start`. This should start Docker container `my-site` and expose the Apache server at `http://localhost:8080`.
+Once the image is built, start it with `npm start`. This should start Docker container `my-site` and expose the Apache server at `http://localhost:8080`. Set this url as `baseUrl` in the [cypress.json](cypress.json) file.
 
 ## Test it using Cypress
 
