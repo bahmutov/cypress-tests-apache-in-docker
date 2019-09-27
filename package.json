@@ -1,0 +1,29 @@
+{
+  "name": "cypress-tests-apache-in-docker",
+  "version": "1.0.0",
+  "description": "Example running Cypress against Apache server running in a Docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-tests-apache-in-docker.git"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-io",
+    "cypress-example",
+    "apache",
+    "docker"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-tests-apache-in-docker/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-tests-apache-in-docker#readme",
+  "devDependencies": {
+    "cypress": "3.4.1"
+  }
+}
